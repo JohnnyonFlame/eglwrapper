@@ -1,0 +1,3 @@
+[submodule "blobs"]
+	path = blobs
+	url = https://github.com/JohnnyonFlame/cubieboard6_ubuntu_gpu_drivers
