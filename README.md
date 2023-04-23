@@ -1,12 +1,12 @@
 ### What is in this repository?
 
 This repo contains a wrapper for libIMGegl, providing libEGL functionality while fixing gaps in the behavior of the
-included libEGL Actions S500 PowerVR blobs.
-
-This is inteded or usage with the Anbernic RG35xx.
+included libEGL on the Actions S500 PowerVR blobs.
 
 With this, you should be able to use the PowerVR blobs without X11, using either EGL directly (as seen in `eglconfig.c`)
 or with a compatible [SDL fork](https://github.com/JohnnyonFlame/SDL-rg35xx).
+
+This is inteded for usage with the Anbernic RG35xx, with any GPU-enabled CFW such as [Batocera Linux](https://github.com/rg35xx-cfw/batocera.linux).
 
 ### Dependencies
 
